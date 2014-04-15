@@ -1,6 +1,6 @@
 # Soleil
 
-Sunrise/sunset times from the terminal.
+Sunrise/sunset times from the terminal. Soleil uses your current location (using Google's geolocation API) to calculate sunrise/sunset times. An internet connection is needed to access the geolocation API.
 
 ## Usage
 
