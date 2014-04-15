@@ -22,7 +22,7 @@ $ npm install -g soleil
 
 ## Acknowledgements
 
-Soleil uses [suncalc](https://github.com/mourner/suncalc) for sunrise/sunset calculations. Suncalc is licensed under the BSD-2 Clause.
+Soleil uses [suncalc](https://github.com/mourner/suncalc) for sunrise/sunset calculations. Suncalc is licensed under the BSD-2 Clause:
 
 ```
 Copyright (c) 2014, Vladimir Agafonkin
