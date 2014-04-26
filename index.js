@@ -4,16 +4,15 @@ var suncalc = require('suncalc'),
     request = require('request'),
     moment = require('moment'),
     chalk = require('chalk'),
-    geolocation_url = 'https://maps.googleapis.com/maps/api/browserlocation/json?browser=chromium&sensor=true';
+    cl = require('corelocation');
 
-request(geolocation_url, function (err, res, body) {
-    if (err) {
-        console.log(chalk.red('Geolocation request failed.\n' + err));
-        return;
-    }
-    var geolocation_data = JSON.parse(body);
-    display(geolocation_data.location);
-});
+var location = cl.getLocation();
+var coords = {
+    lat: location[1],
+    lng: location[0]
+};
+
+display(coords);
 
 function display (coords) {
     var sun_times = suncalc.getTimes(new Date(), coords.lat, coords.lng);
