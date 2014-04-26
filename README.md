@@ -1,16 +1,15 @@
 # Soleil
 
-Sunrise/sunset times from the terminal. Soleil uses your current location (using Google's geolocation API) to calculate sunrise/sunset times. An internet connection is needed to access the geolocation API.
+Sunrise/sunset times from the terminal. Soleil uses your current location (using OSX CoreLocation) to calculate sunrise/sunset times. Soleil requires OSX.
 
 ## Usage
 
 ```bash
 $ soleil
-
-Dawn: Today at 7:14 AM
-Sunrise: Today at 7:37 AM
-Sunset: Today at 7:08 PM
-Dusk: Today at 7:31 PM
+Dawn: Today at 7:18 AM (7 hours ago)
+Sunrise: Today at 7:42 AM (7 hours ago)
+Sunset: Today at 6:58 PM (in 4 hours)
+Dusk: Today at 7:22 PM (in 5 hours)
 Moon Phase: Waning
 ```
 
@@ -22,7 +21,7 @@ $ npm install -g soleil
 
 ## Acknowledgements
 
-Soleil uses [suncalc](https://github.com/mourner/suncalc) for sunrise/sunset calculations. Suncalc is licensed under the BSD-2 Clause:
+Soleil uses [suncalc](https://github.com/mourner/suncalc) for sunrise/sunset calculations and [node-corelocation](https://github.com/tmcw/node-corelocation) for lat/long data. Suncalc is licensed under the BSD-2 Clause:
 
 ```
 Copyright (c) 2014, Vladimir Agafonkin
