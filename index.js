@@ -26,7 +26,8 @@ function display (coords) {
 }
 
 function output (name, date) {
-    console.log(chalk.yellow(name + ': ') + moment(date).calendar());
+    var output = chalk.yellow(name + ': ') + moment(date).calendar() + chalk.cyan(' (' + moment(date).fromNow() + ')');
+    console.log(output);
 }
 
 function phase (fraction, angle) {
