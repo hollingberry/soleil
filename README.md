@@ -19,6 +19,13 @@ Moon Phase: Waning
 $ npm install -g soleil
 ```
 
+## Todo
+
+- Improve lunar information
+    - Better description ("Waxing Crescent" instead of "Waxing")
+    - Add unicode moon phase symbol to output
+    - New/full moon info ("4 days until the next new moon" or "Full moon tonight")
+
 ## Acknowledgements
 
 Soleil uses [suncalc](https://github.com/mourner/suncalc) for sunrise/sunset calculations and [node-corelocation](https://github.com/tmcw/node-corelocation) for lat/long data. Suncalc is licensed under the BSD-2 Clause:
