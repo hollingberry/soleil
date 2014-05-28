@@ -4,6 +4,20 @@
   "description": "Daily sunrise/sunset times.",
   "main": "index.js",
   "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hollingberry/soleil"
+  },
+  "keywords": [
+    "daily",
+    "sunrise",
+    "sunset",
+    "times",
+    "suncalc"
+  ],
   "dependencies": {
     "chalk": "~0.4.0",
     "moment": "~2.5.1",
@@ -11,10 +25,10 @@
     "suncalc": "~1.3.0",
     "corelocation": "0.0.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Casper Hollingberry <hollingberry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hollingberry/soleil/issues"
   },
-  "author": "",
-  "license": "MIT"
+  "homepage": "https://github.com/hollingberry/soleil"
 }
