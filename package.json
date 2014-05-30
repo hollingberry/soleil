@@ -1,7 +1,7 @@
 {
   "name": "soleil",
   "version": "0.2.2",
-  "description": "Daily sunrise/sunset times.",
+  "description": "Daily sunrise/sunset times in your terminal.",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
@@ -16,7 +16,12 @@
     "sunrise",
     "sunset",
     "times",
-    "suncalc"
+    "suncalc",
+    "terminal",
+    "cli",
+    "command",
+    "line",
+    "interface"
   ],
   "dependencies": {
     "chalk": "~0.4.0",
