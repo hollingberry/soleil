@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 
-import { getTimes } from 'suncalc';
-import { getLocation } from 'corelocation';
+import * as suncalc from 'suncalc';
+import * as cl from 'corelocation';
 import * as chalk from 'chalk';
 import * as moment from 'moment';
 
-var { longitude, latitude } = getLocation();
-var { dawn, sunrise, sunset, dusk } = getTimes(new Date(), latitude, longitude);
+var [ longitude, latitude ] = cl.getLocation();
+var { dawn, sunrise, sunset, dusk } = suncalc.getTimes(new Date(), latitude, longitude);
 
 function output(description, time) {
-  description = chalk.yellow(description);
-  time = moment(time).format('h:mm a');
+  title = chalk.yellow(description);
+  clockTime = moment(time).format('h:mm a');
   relativeTime = chalk.cyan(moment(time).fromNow());
-  console.log(`${description}: ${time} (${relativeTime})`);
+  console.log(`${title}: ${clockTime} (${relativeTime})`);
 }
 
 output('Now', new Date());
