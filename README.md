@@ -16,5 +16,5 @@ $ npm install -g soleil
 
 Soleil uses [suncalc](https://github.com/mourner/suncalc) for sunrise/sunset
 calculations and [node-corelocation](https://github.com/tmcw/node-corelocation)
-for lat/long data. Suncalc is licensed under the BSD-2 Clause (Copyright 2014,
-Vladimir Agafonkin).
+to find your current location. Suncalc is licensed under the BSD-2 Clause
+(Copyright 2014, Vladimir Agafonkin).
