@@ -1,17 +1,8 @@
 # Soleil
 
+<img src="https://raw.github.com/hollingberry/soleil/master/screenshot.png" width="400" />
+
 Sunrise/sunset times from the terminal. Soleil uses your current location (using OSX CoreLocation) to calculate sunrise/sunset times. Soleil requires OSX.
-
-## Usage
-
-```bash
-$ soleil
-Now: 7:05 pm (a few seconds ago)
-Dawn: 6:32 am (13 hours ago)
-Sunrise: 7:00 am (12 hours ago)
-Sunset: 4:53 pm (2 hours ago)
-Dusk: 5:22 pm (2 hours ago)
-```
 
 ## Installation
 
