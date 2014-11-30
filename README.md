@@ -6,11 +6,11 @@ Sunrise/sunset times from the terminal. Soleil uses your current location (using
 
 ```bash
 $ soleil
-Dawn: Today at 7:18 AM (7 hours ago)
-Sunrise: Today at 7:42 AM (7 hours ago)
-Sunset: Today at 6:58 PM (in 4 hours)
-Dusk: Today at 7:22 PM (in 5 hours)
-Moon Phase: Waning
+Now: 7:05 pm (a few seconds ago)
+Dawn: 6:32 am (13 hours ago)
+Sunrise: 7:00 am (12 hours ago)
+Sunset: 4:53 pm (2 hours ago)
+Dusk: 5:22 pm (2 hours ago)
 ```
 
 ## Installation
@@ -18,13 +18,6 @@ Moon Phase: Waning
 ```bash
 $ npm install -g soleil
 ```
-
-## Todo
-
-- Improve lunar information
-    - Better description ("Waxing Crescent" instead of "Waxing")
-    - Add unicode moon phase symbol to output
-    - New/full moon info ("4 days until the next new moon" or "Full moon tonight")
 
 ## Acknowledgements
 
