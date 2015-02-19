@@ -1,6 +1,6 @@
 {
   "name": "soleil",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Daily sunrise/sunset times in your terminal.",
   "main": "index.js",
   "bin": "index.js",
